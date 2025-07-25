@@ -13,6 +13,11 @@ spring:
         options:
           model: imagen-3.0-generate-002
         images-path: /v1beta/openai/images/generations
+      audio:
+        speech:
+          options:
+            model:
+          base-url: 
 
 logging:
   level:
